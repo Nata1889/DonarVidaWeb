@@ -1,0 +1,46 @@
+﻿@inject IJSRuntime JSRuntime
+
+<div style="display: flex; align-items: center; justify-content: center; width: 100%;">
+    <button class="btn btn-success " @onclick="GeneratePdf">Descargar Cuestionario PDF</button>
+</div>
+
+@code {
+    private async Task GeneratePdf()
+    {
+        var title = "Cuestionario para Donantes";
+        var questions = new List<string>
+        {
+            "¿Ha donado sangre en los últimos dos meses, plaquetas o plasma en los últimos quince días?",
+            "¿Está tomando o ha tomado en los últimos días algún medicamento, incluido la aspirina, ibuprofeno o derivados?",
+            "¿Necesita tomar medicamentos para controlar la tensión arterial?",
+            "¿Es diabético dependiente de insulina?",
+            "¿Está en tratamiento médico para síndrome depresivo o algún otro tipo de enfermedad de salud mental?",
+            "¿Ha tomado alguna vez Aviadt, Duagen, Proscar, Propecia, Finasterida, Eucoprost, Ativol para un problema de próstata?",
+            "¿Padece usted Apnea del sueño y/o duerme con CPAP?",
+            "¿Ha tomado alguna vez Neotigason, Roacután, Tigason, Isotrex para problemas de la piel?",
+            "¿Va a realizar alguna actividad laboral -conducir un vehículo de transporte público o deportiva peligrosa de riesgo- en las próximas 12 horas?",
+            "¿Se ha extraído muelas o padecido infección bucal en las últimas 2 semanas?",
+            "¿Ha sufrido gripe, diarrea, dolor de cabeza y malestar general, otra infección o fiebre en las últimas 2 semanas?",
+            "¿Ha tenido cirugía menor (Anestesia local) en el último mes?",
+            "¿Ha recibido alguna vacuna en el último mes?",
+            "¿Ha estado en contacto con una persona que tenía una enfermedad infecciosa contagiosa en el último mes?",
+            "¿Ha viajado o residido fuera de España en el último mes?",
+            "¿Le han realizado alguna exploración como endoscopia o biopsia, o cirugía mayor (anestesia general) en los últimos cuatro meses?",
+            "¿Ha convivido con enfermos con hepatitis u otra enfermedad infecciosa en los últimos cuatro meses?",
+            "¿Se ha hecho tatuajes, perforaciones en la piel o acupuntura en los últimos cuatro meses?",
+            "¿Ha asistido a la consulta de algún médico o ha estado hospitalizado en los últimos cuatro meses?",
+            "¿Ha perdido más de 4 Kg. sin justificación en los últimos cuatro meses?",
+            "¿Ha viajado o residido fuera de Europa en los últimos seis meses?",
+            "¿Ha sido rechazado como donante en alguna ocasión, a lo largo de su vida?",
+            "¿Ha tenido una enfermedad grave que haya exigido control médico periódico?",
+            "¿Ha recibido sangre o algún hemoderivado (plasma o plaquetas) en alguna ocasión?",
+            "¿Ha padecido hepatitis vírica después de los 10 años?",
+            "¿Ha padecido ataques epilépticos, convulsiones o síncopes?",
+            "¿Ha sufrido alguna enfermedad infecciosa grave como paludismo (malaria), enfermedad de Chagas, leishmaniasis, mononucleosis infecciosa, tuberculosis, sífilis, gonorrea... entre otras?",
+            "¿Ha padecido enfermedad grave de pulmón, corazón o presión sanguínea, riñón, neurológica, cáncer, leucemia o autoinmune —Con toma de corticoides de forma crónica—?",
+            "¿Ha sufrido alguna enfermedad o reacción alérgica grave?"
+        };
+
+        await JSRuntime.InvokeVoidAsync("generateCuestionarioPdf", title, questions);
+    }
+}

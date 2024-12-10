@@ -1,0 +1,137 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+<head>
+    <link href="css/Home.css" rel="stylesheet" />
+</head>
+<header>
+        
+    <div class="search-container">
+        <input type="text" placeholder="Buscar centros de donaciones..." id="search-input">
+        <button type="submit" id="search-button">Buscar</button>
+    </div>
+</header>
+<br />
+
+<DonarVida.Components.PdfReport />
+<br />
+
+<body>
+    <CardGroup>
+        <Card Class="mb-4" Style="width:18rem;">
+            <img src="/images/14deJunio.png" alt="placeholder" />
+            <CardBody>
+                <CardTitle>Próximas campañas</CardTitle>
+                <CardText>
+                    Infórmate sobre nuestras próximas 
+                    campañas de donación en tu ciudad y únete a salvar vidas. 
+                    Tu donación es más necesaria que nunca.</CardText>
+                </CardBody>
+        </Card>
+        <Card Class="mb-4" Style="width:18rem;">
+            <img src="/images/dona-sangre-01.jpg" alt="placeholder" />
+            <CardBody>
+                <CardTitle>Beneficios</CardTitle>
+                <CardText>
+                    Donar sangre no solo salva vidas, 
+                    también tiene beneficios para tu salud, 
+                    como mejorar la circulación y estimular 
+                    la producción de nuevas células sanguíneas.
+                </CardText>
+            </CardBody>
+        </Card>
+        <Card Class="mb-4" Style="width:18rem;">
+            <img src="/images/xqDonar.png" alt="placeholder" />
+            <CardBody>
+                <CardTitle>¿Por que Donar?</CardTitle>
+                <CardText>
+                    Donar sangre y sustancias derivadas
+                    de la sangre es importante y es bueno
+                    tanto para vos como para los demás.
+                </CardText>
+            </CardBody>
+        </Card>
+    </CardGroup>
+    <br />
+    <br />
+    <section class="section-acordion">
+        <Accordion Flush="true">
+            <AccordionItem Title="Requisitos para donar sangre">
+                <Content>
+                    <b>Durante la donación de sangre no se corre ningún riesgo.</b>  Es completamente inofensivo para los donantes. El material que se usa es estéril y descartable. Donar sangre no debilita, no engorda, no adelgaza, ni trae ningún perjuicio al donante. Inmediatamente después de la donación en su organismo comienza a compensarse el volumen extraído (450ml), solamente hidratándose. El donante no notará ninguna diferencia.
+                </Content>
+            </AccordionItem>
+            <AccordionItem Title="Sangre, plaquetas y plasma">
+                <Content>
+                    <b>Se puede efectuar donación de sangre total, o también donación de Plaquetas o Plasma por el Sistema de Aféresis.</b> 
+                    La aféresis es el proceso por el cual se extrae sangre total a un donante o a un paciente, se separa en componentes, se retienen los elementos deseados y se infunden nuevamente al donante o paciente los componentes restantes.
+                </Content>
+            </AccordionItem>
+            <AccordionItem Title="El proceso de donación">
+                <Content>
+                    <b>El proceso es rápido y seguro.</b> Solo toma 10-15 minutos donar sangre, y cada paso está supervisado por profesionales de la salud.
+                </Content>
+            </AccordionItem>
+        </Accordion>
+    </section>
+    <br />
+    <br />
+    <Carousel ShowIndicators="true">
+        <CarouselItem Active="true">
+            <Image Src="/images/donarSangre.jpg" />
+        </CarouselItem>
+        <CarouselItem>
+            <Image Src="/images/donar.jpg" />
+        </CarouselItem>
+        <CarouselItem>
+            <Image Src="/images/personas.jpg" />
+        </CarouselItem>
+    </Carousel>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer>
+        <div class="footer-container">
+            <!-- Sección de enlaces -->
+            <div class="footer-links">
+                <h3>Enlaces</h3>
+                <br />
+                <ul>
+                    <li><a href="https://avas.ar/quienes-somos/">Sobre Nosotros</a></li>
+                    <li><a href="https://avas.ar/quienes-somos/un-poco-de-historia/">Historia</a></li>
+                    <li><a href="https://avas.ar/porque-donar/">Porque Donar</a></li>
+                    <li><a href="https://avas.ar/donde-donar/">Donde Donar</a></li>
+                </ul>
+            </div>
+
+            <!-- Sección de contacto -->
+            <div class="footer-contact">
+                <h3>Contáctanos</h3>
+                <br
+                <p>Email: <a href="mailto:hospitalsj@gmail.com">hospitalsj@gmail.com</a></p>
+                <p>Teléfono: <a href="tel:03498427377">+54 3498 42-7377</a></p>
+                <p>Dirección:  Italia 2865, San Justo, Santa Fe</p>
+            </div>
+
+            <!-- Sección de redes sociales -->
+            <div class="footer-social">
+                <h3>Seguinos</h3>
+                <br />
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://avas.ar/donde-donar/"><img src="/images/fb-logo.png" alt="Facebook"></a></li>
+                    <li><a href="https://x.com/intent/post?hashtags=AVASBahiaBlanca&text=AVAS+Bah%C3%ADa+Blanca&url=https%3A%2F%2Favas.ar%2Fdonde-donar%2F"><img src="/images/x-logo.png" alt="X"></a></li>
+                    <li><a href="#"><img src="/images/ig-logp.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Derechos reservados -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 Donar Vida. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>

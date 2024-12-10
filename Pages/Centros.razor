@@ -1,0 +1,191 @@
+﻿@page "/centros"
+
+@using ClassDonarVida.Models;
+@using ClassDonarVida.Services;
+@using ClassDonarVida.Services.Interfaces;
+@using DonarVida.Pages;
+@using CurrieTechnologies.Razor.SweetAlert2;
+@using Microsoft.AspNetCore.Components;
+
+@inject SweetAlertService Swal;
+@inject CentroDonacionService CentroDonacionService;
+@inject NavigationManager NavigationManager;
+
+<PageTitle>CentrosDonación</PageTitle>
+
+<h1>Centros de donación</h1>
+
+<a class="btn btn-success btn-sm mb-3" @onclick="NuevoCentro">Nuevo Centro</a>
+
+@if (centros == null)
+{
+    <p>Cargando datos...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Dirección</th>
+                <th>Capacidad</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var centros in centros)
+            {
+                <tr>
+                    <td>@centros.Nombre</td>
+                    <td>@centros.Direccion</td>
+                    <td>@centros.Capacidad</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => EditarCentro(centros.Id)">Editar</button>
+                        <button class="btn btn-danger" @onclick="() => Eliminar(centros.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (isModalVisible)
+{
+    <div class="modal show d-block" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">@modalTitle</h5>
+                    <button type="button" class="btn-close" @onclick="CerrarModal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" id="nombre" class="form-control" @bind="centroActual.Nombre" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="direccion" class="form-label">Dirección</label>
+                        <input type="text" id="direccion" class="form-control" @bind="centroActual.Direccion" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="capacidad" class="form-label">Capacidad</label>
+                        <input type="number" id="capacidad" class="form-control" @bind="centroActual.Capacidad" />
+                    </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" @onclick="CerrarModal">Cancelar</button>
+                    <button class="btn btn-primary" @onclick="GuardarCentro">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="modal-backdrop show"></div>
+}
+
+@code {
+    private List<ClassDonarVida.Models.CentroDonacion>? centros;
+    private ClassDonarVida.Models.CentroDonacion centroActual = new ClassDonarVida.Models.CentroDonacion();
+    private string modalTitle = string.Empty;
+    private bool isModalVisible = false;
+
+
+    // Carga inicial de los centros al inicializar el componente.
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarCentros();
+    }
+
+    private async Task CargarCentros()
+    {
+        try
+        {
+            // Llamada al servicio para obtener la lista de centros.
+            var centrosList = await CentroDonacionService.GetAllAsync();
+            if (centrosList != null)
+            {
+                centros = centrosList;  // Si el modelo ya coincide, no es necesario mapear.
+            }
+            else
+            {
+                centros = new List<ClassDonarVida.Models.CentroDonacion>();
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error al cargar los centros de donacion: {ex.Message}");
+            await Swal.FireAsync("Error", "No se pudieron cargar los centros de donacion. Por favor, intenta más tarde.", SweetAlertIcon.Error);
+        }
+    }
+
+    private void NuevoCentro()
+    {
+        centroActual = new ClassDonarVida.Models.CentroDonacion();
+        modalTitle = "Nuevo Centro de Donación";
+        isModalVisible = true;
+    }
+
+        private async Task EditarCentro(int id)
+        {
+            centroActual = await CentroDonacionService.GetByIdAsync(id);
+            modalTitle = "Editar Centro";
+            isModalVisible = true;
+        }
+
+        private async Task GuardarCentro()
+        {
+            if (centroActual.Id == 0)
+            {
+                // Crear nuevo centro
+                await CentroDonacionService.CreateAsync(centroActual);
+            }
+            else
+            {
+                // Actualizar centro existente
+                await CentroDonacionService.UpdateAsync(centroActual);
+            }
+
+            await CargarCentros();
+            CerrarModal();
+        }
+
+        private void CerrarModal()
+        {
+            isModalVisible = false;
+        }
+
+    private async Task Eliminar(int id)
+    {
+        try
+        {
+            // Confirmación antes de eliminar el centro.
+            var confirmacion = await Swal.FireAsync(new SweetAlertOptions
+                {
+                    Title = "Eliminar centro de donación",
+                    Text = "¿Estás seguro de que deseas eliminar este centro de donación?",
+                    Icon = SweetAlertIcon.Warning,
+                    ShowCancelButton = true
+                });
+
+            if (confirmacion.IsConfirmed)
+            {
+                // Llamada al servicio para eliminar el centro.
+                var resultado = await CentroDonacionService.DeleteAsync(id);
+                if (resultado)
+                {
+                    // Actualizar la lista local después de la eliminación.
+                    await Swal.FireAsync("Éxito", "Centro eliminado correctamente.", SweetAlertIcon.Success);
+                }
+                else
+                {
+                    await Swal.FireAsync("Error", "No se pudo eliminar el Centro.", SweetAlertIcon.Error);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error al eliminar el centro: {ex.Message}");
+            await Swal.FireAsync("Error", "Ocurrió un problema al intentar eliminar el centro. Por favor, intenta más tarde.", SweetAlertIcon.Error);
+        }
+    }
+
+}

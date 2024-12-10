@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DonarVida.styles.css",
+      "PackagePath": "staticwebassets\\DonarVida.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\css\\MainLayout.css",
+      "PackagePath": "staticwebassets\\css\\MainLayout.css"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\images\\14deJunio.png",
+      "PackagePath": "staticwebassets\\images\\14deJunio.png"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\images\\dona-sangre-01.jpg",
+      "PackagePath": "staticwebassets\\images\\dona-sangre-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\images\\donar.jpg",
+      "PackagePath": "staticwebassets\\images\\donar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\images\\donarSangre.jpg",
+      "PackagePath": "staticwebassets\\images\\donarSangre.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\images\\fb-logo.png",
+      "PackagePath": "staticwebassets\\images\\fb-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\images\\ig-logp.png",
+      "PackagePath": "staticwebassets\\images\\ig-logp.png"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\images\\personas.jpg",
+      "PackagePath": "staticwebassets\\images\\personas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\images\\sangre.jpg",
+      "PackagePath": "staticwebassets\\images\\sangre.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\images\\x-logo.png",
+      "PackagePath": "staticwebassets\\images\\x-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\images\\xqDonar.png",
+      "PackagePath": "staticwebassets\\images\\xqDonar.png"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DonarVida.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DonarVida.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DonarVida.props",
+      "PackagePath": "build\\DonarVida.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DonarVida.props",
+      "PackagePath": "buildMultiTargeting\\DonarVida.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DonarVida.props",
+      "PackagePath": "buildTransitive\\DonarVida.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

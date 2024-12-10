@@ -1,0 +1,214 @@
+﻿@page "/donante"
+
+@using ClassDonarVida.Models;
+@using ClassDonarVida.Services;
+@using ClassDonarVida.Services.Interfaces;
+@using DonarVida.Pages;
+@using CurrieTechnologies.Razor.SweetAlert2;
+@using Microsoft.AspNetCore.Components;
+
+
+@inject SweetAlertService Swal;
+@inject DonanteService DonanteService;
+@inject NavigationManager NavigationManager;
+
+<PageTitle>Donante</PageTitle>
+
+<h1>Donantes</h1>
+
+<a class="btn btn-success btn-sm mb-3" @onclick="NuevoDonante">Nuevo Donante</a>
+
+@if (donantes == null)
+{
+    <p>Cargando datos...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>DNI</th>
+                <th>Fecha nacimiento</th>
+                <th>Grupo sanguineo</th>
+                <th>Factor RH</th>
+                <th>Contacto</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var donante in donantes)
+            {
+                <tr>
+                    <td>@donante.Nombre</td>
+                    <td>@donante.DNI</td>
+                    <td>@donante.FechaNacimiento</td>
+                    <td>@donante.GrupoSanguineo</td>
+                    <td>@donante.FactorRH</td>
+                    <td>@donante.Contacto</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => EditarDonante(donante.Id)">Editar</button>
+                        <button class="btn btn-danger" @onclick="() => Eliminar(donante.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
+<!-- Modal -->
+@if (isModalVisible)
+{
+    <div class="modal show d-block" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">@modalTitle</h5>
+                    <button type="button" class="btn-close" @onclick="CerrarModal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" id="nombre" class="form-control" @bind="donanteActual.Nombre" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="dni" class="form-label">DNI</label>
+                        <input type="text" id="dni" class="form-control" @bind="donanteActual.DNI" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+                        <input type="date" id="fechaNacimiento" class="form-control" @bind="donanteActual.FechaNacimiento" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="grupoSanguineo" class="form-label">Grupo Sanguíneo</label>
+                        <input type="text" id="grupoSanguineo" class="form-control" @bind="donanteActual.GrupoSanguineo" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="factorRH" class="form-label">Factor RH</label>
+                        <input type="text" id="factorRH" class="form-control" @bind="donanteActual.FactorRH" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="contacto" class="form-label">Contacto</label>
+                        <input type="text" id="contacto" class="form-control" @bind="donanteActual.Contacto" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" @onclick="CerrarModal">Cancelar</button>
+                    <button class="btn btn-primary" @onclick="GuardarDonante">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-backdrop show"></div>
+}
+
+@code {
+    private List<ClassDonarVida.Models.Donante>? donantes;
+    private ClassDonarVida.Models.Donante donanteActual = new ClassDonarVida.Models.Donante();
+    private string modalTitle = string.Empty;
+    private bool isModalVisible = false;
+
+    // Carga inicial de los donantes al inicializar el componente.
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarDonantes();
+    }
+
+    private async Task CargarDonantes()
+    {
+        try
+        {
+            // Llamada al servicio para obtener la lista de donantes.
+            var donantesList = await DonanteService.GetAllAsync();
+            if (donantesList != null)
+            {
+                 donantes = donantesList;  // Si el modelo ya coincide, no es necesario mapear.
+            }
+            else
+            {
+                donantes = new List<ClassDonarVida.Models.Donante>();
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error al cargar los donantes: {ex.Message}");
+            await Swal.FireAsync("Error", "No se pudieron cargar los donantes. Por favor, intenta más tarde.", SweetAlertIcon.Error);
+        }
+    }
+
+    
+    private void NuevoDonante()
+    {
+        donanteActual = new ClassDonarVida.Models.Donante();
+        modalTitle = "Nuevo Donante";
+        isModalVisible = true;
+    }
+
+    private async Task EditarDonante(int id)
+    {
+        donanteActual = await DonanteService.GetByIdAsync(id);
+        modalTitle = "Editar Donante";
+        isModalVisible = true;
+    }
+
+    private async Task GuardarDonante()
+    {
+        if (donanteActual.Id == 0)
+        {
+            // Crear nuevo donante
+            await DonanteService.CreateAsync(donanteActual);
+        }
+        else
+        {
+            // Actualizar donante existente
+            await DonanteService.UpdateAsync(donanteActual);
+        }
+
+        await CargarDonantes();
+        CerrarModal();
+    }
+
+    private void CerrarModal()
+    {
+        isModalVisible = false;
+    }
+
+    private async Task Eliminar(int id)
+    {
+        try
+        {
+            // Confirmación antes de eliminar el donante.
+            var confirmacion = await Swal.FireAsync(new SweetAlertOptions
+                {
+                    Title = "Eliminar Donante",
+                    Text = "¿Estás seguro de que deseas eliminar este donante?",
+                    Icon = SweetAlertIcon.Warning,
+                    ShowCancelButton = true
+                });
+
+            if (confirmacion.IsConfirmed)
+            {
+                // Llamada al servicio para eliminar el donante.
+                var resultado = await DonanteService.DeleteAsync(id);
+                if (resultado)
+                {
+                    // Actualizar la lista local después de la eliminación.
+                    // donantes = donantes!.Where(d => d.Id != id).ToList();
+                    await Swal.FireAsync("Éxito", "Donante eliminado correctamente.", SweetAlertIcon.Success);
+                }
+                else
+                {
+                    await Swal.FireAsync("Error", "No se pudo eliminar el donante.", SweetAlertIcon.Error);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error al eliminar el donante: {ex.Message}");
+            await Swal.FireAsync("Error", "Ocurrió un problema al intentar eliminar el donante. Por favor, intenta más tarde.", SweetAlertIcon.Error);
+        }
+    }
+}
+

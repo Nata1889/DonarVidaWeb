@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = DonarVida
+build_property.RootNamespace = DonarVida
+build_property.ProjectDir = C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Natanael/Trabajo final Programacion II - Base de datos II - Gestión de Proyectos/DonarVida/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natanael/Trabajo final Programacion II - Base de datos II - Gestión de Proyectos/DonarVida/Components/PdfReport.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQZGZSZXBvcnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natanael/Trabajo final Programacion II - Base de datos II - Gestión de Proyectos/DonarVida/Pages/Centros.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2VudHJvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natanael/Trabajo final Programacion II - Base de datos II - Gestión de Proyectos/DonarVida/Pages/Donaciones.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uYWNpb25lcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natanael/Trabajo final Programacion II - Base de datos II - Gestión de Proyectos/DonarVida/Pages/Donante.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uYW50ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natanael/Trabajo final Programacion II - Base de datos II - Gestión de Proyectos/DonarVida/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natanael/Trabajo final Programacion II - Base de datos II - Gestión de Proyectos/DonarVida/Pages/Programas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3JhbWFzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natanael/Trabajo final Programacion II - Base de datos II - Gestión de Proyectos/DonarVida/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Natanael/Trabajo final Programacion II - Base de datos II - Gestión de Proyectos/DonarVida/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-g562dq8jmr
+
+[C:/Users/Natanael/Trabajo final Programacion II - Base de datos II - Gestión de Proyectos/DonarVida/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ame53hn8qm

@@ -1,0 +1,243 @@
+﻿@page "/donaciones"
+
+@using ClassDonarVida.Models;
+@using ClassDonarVida.Services;
+@using ClassDonarVida.Services.Interfaces;
+@using DonarVida.Pages;
+@using CurrieTechnologies.Razor.SweetAlert2;
+@using Microsoft.AspNetCore.Components;
+
+@inject SweetAlertService Swal;
+@inject DonacionService DonacionService;
+@inject NavigationManager NavigationManager;
+
+@inject DonanteService DonanteService;
+@inject ProgramaDonacionService ProgramaDonacionService;
+
+<PageTitle>Donaciones</PageTitle>
+
+<h1>Donaciones</h1>
+
+<a class="btn btn-success btn-sm mb-3" @onclick="NuevaDonacion">Nuevo Donación</a>
+@if (donaciones == null)
+{
+    <p>Cargando datos...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Fecha de Donación</th>
+                <th>Tipo de Donación</th>
+                <th>Programa de Donación</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var donaciones in donaciones)
+            {
+                <tr>
+                    <td>@donanteNombre[donaciones.DonanteId]</td>
+                    <td>@donaciones.FechaDonacion</td>
+                    <td>@donaciones.TipoDonacion</td>
+                    <td>@programaDonacionNombre[donaciones.ProgramaDonacionId]</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => EditarDonacion(donaciones.Id)">Editar</button>
+                        <button class="btn btn-danger" @onclick="() => Eliminar(donaciones.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (isModalVisible)
+{
+    <div class="modal show d-block" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">@modalTitle</h5>
+                    <button type="button" class="btn-close" @onclick="CerrarModal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <select type="text" id="nombre" class="form-select" @bind="donacionActual.DonanteId">
+                            @foreach (var donante in donantes)
+                            {
+                                <option value="@donante.Id">@donante.Nombre</option>
+                            }
+                        </select> 
+                    </div>
+                    <div class="mb-3">
+                        <label for="fechaDonacion" class="form-label">Fecha de donación</label>
+                        <input type="date" id="fechaDonacion" class="form-control" @bind="donacionActual.FechaDonacion" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="TipoDonacion" class="form-label">Tipo de donación</label>
+                        <input type="text" id="TipoDonacion" class="form-control" @bind="donacionActual.TipoDonacion" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="ProgramaDonacion" class="form-label">Programa de donación</label>
+                        <select type="text" id="ProgramaDonacion" class="form-select" @bind="donacionActual.ProgramaDonacionId">
+                            @foreach (var programa in programaDonacion)
+                            {
+                                <option value="@programa.Id">@programa.Nombre</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" @onclick="CerrarModal">Cancelar</button>
+                    <button class="btn btn-primary" @onclick="GuardarDonacion">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-backdrop show"></div>
+}
+
+@code {
+    private List<ClassDonarVida.Models.Donacion>? donaciones;
+    private List<ClassDonarVida.Models.Donante>? donantes;
+    private List<ClassDonarVida.Models.ProgramaDonacion>? programaDonacion;
+    private Dictionary<int, string> donanteNombre = new();
+    private Dictionary<int, string> programaDonacionNombre = new();
+    private ClassDonarVida.Models.Donacion donacionActual = new ClassDonarVida.Models.Donacion();
+    private string modalTitle = string.Empty;
+    private bool isModalVisible = false;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarDonaciones();
+        await CargarDonantes();
+        donantes = await DonanteService.GetAllAsync();
+        await CargarProgramaDonacion();
+        programaDonacion = await ProgramaDonacionService.GetAllAsync();
+    }
+
+    private async Task CargarProgramaDonacion()
+    {
+        try
+        {
+            var programaDonacion = await ProgramaDonacionService.GetAllAsync();
+            programaDonacionNombre = programaDonacion.ToDictionary(c => c.Id, c => c.Nombre); // Asigna el nombre de cada cliente a su ID
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching ProgramaDonacion: {ex.Message}");
+            donanteNombre = new Dictionary<int, string>();
+        }
+    }
+
+    private async Task CargarDonantes()
+    {
+        try
+        {
+            var donantes = await DonanteService.GetAllAsync();
+            donanteNombre = donantes.ToDictionary(c => c.Id, c => c.Nombre); // Asigna el nombre de cada cliente a su ID
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching donantes: {ex.Message}");
+            donanteNombre = new Dictionary<int, string>();
+        }
+    }
+
+    private async Task CargarDonaciones()
+    {
+        try
+        {
+            // Llamada al servicio para obtener la lista de donantes.
+            var donacionesList = await DonacionService.GetAllAsync();
+            if (donacionesList != null)
+            {
+                donaciones = donacionesList;  // Si el modelo ya coincide, no es necesario mapear.
+            }
+            else
+            {
+                donaciones = new List<ClassDonarVida.Models.Donacion>();
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error al cargar las donaciones: {ex.Message}");
+            await Swal.FireAsync("Error", "No se pudieron cargar las donaciones. Por favor, intenta más tarde.", SweetAlertIcon.Error);
+        }
+    }
+
+    private void NuevaDonacion()
+    {
+        donacionActual = new ClassDonarVida.Models.Donacion();
+        modalTitle = "Nueva donación";
+        isModalVisible = true;
+    }
+
+    private async Task EditarDonacion(int id)
+    {
+        donacionActual = await DonacionService.GetByIdAsync(id);
+        modalTitle = "Editar donación";
+        isModalVisible = true;
+    }
+
+    private async Task GuardarDonacion()
+    {
+        if (donacionActual.Id == 0)
+        {
+            // Crear nuevo donante
+            await DonacionService.CreateAsync(donacionActual);
+        }
+        else
+        {
+            // Actualizar donante existente
+            await DonacionService.UpdateAsync(donacionActual);
+        }
+
+        await CargarDonaciones();
+        CerrarModal();
+    }
+
+    private void CerrarModal()
+    {
+        isModalVisible = false;
+    }
+
+    private async Task Eliminar(int id)
+    {
+        try
+        {
+            // Confirmación antes de eliminar la donacion.
+            var confirmacion = await Swal.FireAsync(new SweetAlertOptions
+                {
+                    Title = "Eliminar Donación",
+                    Text = "¿Estás seguro de que deseas eliminar esta donación?",
+                    Icon = SweetAlertIcon.Warning,
+                    ShowCancelButton = true
+                });
+
+            if (confirmacion.IsConfirmed)
+            {
+                // Llamada al servicio para eliminar la donacion.
+                var resultado = await DonacionService.DeleteAsync(id);
+                if (resultado)
+                {
+                    // Actualizar la lista local después de la eliminación.
+                    await Swal.FireAsync("Éxito", "Donación eliminada correctamente.", SweetAlertIcon.Success);
+                }
+                else
+                {
+                    await Swal.FireAsync("Error", "No se pudo eliminar la donación.", SweetAlertIcon.Error);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error al eliminar la donación: {ex.Message}");
+            await Swal.FireAsync("Error", "Ocurrió un problema al intentar eliminar la donación. Por favor, intenta más tarde.", SweetAlertIcon.Error);
+        }
+    }
+}

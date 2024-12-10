@@ -1,0 +1,224 @@
+﻿@page "/programas"
+
+@using ClassDonarVida.Models;
+@using ClassDonarVida.Services;
+@using ClassDonarVida.Services.Interfaces;
+@using DonarVida.Pages;
+@using CurrieTechnologies.Razor.SweetAlert2;
+@using Microsoft.AspNetCore.Components;
+
+@inject SweetAlertService Swal;
+@inject ProgramaDonacionService ProgramaDonacionService;
+@inject NavigationManager NavigationManager;
+@inject CentroDonacionService CentroDonacionService;
+
+<PageTitle>Programas</PageTitle>
+
+<h1>Campañas de donación</h1>
+
+<a class="btn btn-success btn-sm mb-3" @onclick="NuevoPrograma">Nueva Campaña de donación</a>
+@if (programas == null)
+{
+    <p>Cargando datos...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Fecha de Inicio</th>
+                <th>Fecha de finalización</th>
+                <th>Centro de Donación</th>
+                <th>Tipo de sangre solicitada</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var programa in programas)
+            {
+                <tr>
+                    <td>@programa.Nombre</td>
+                    <td>@programa.FechaInicio</td>
+                    <td>@programa.FechaFin</td>
+                    <td>@centroDonacionNombre[programa.CentroDonacionId]</td>
+                    <td>@programa.TipoSangreSolicitada</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => EditarPrograma(programa.Id)">Editar</button>
+                        <button class="btn btn-danger" @onclick="() => Eliminar(programa.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (isModalVisible)
+{
+    <div class="modal show d-block" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">@modalTitle</h5>
+                    <button type="button" class="btn-close" @onclick="CerrarModal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" id="TipoDonacion" class="form-control" @bind="programaActual.Nombre" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="fechaInicio" class="form-label">Fecha de Inicio</label>
+                        <input type="date" id="fechaInicio" class="form-control" @bind="programaActual.FechaInicio" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="fechaFin" class="form-label">Fecha de finalización</label>
+                        <input type="date" id="fechaFin" class="form-control" @bind="programaActual.FechaFin" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="centroDonacion" class="form-label">Centro de donación</label>
+                        <select type="text" id="centroDonacion" class="form-select" @bind="programaActual.CentroDonacionId">
+                            @foreach (var centro in centros)
+                            {
+                                <option value="@centro.Id">@centro.Nombre</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tipoSangre" class="form-label">Tipo de sangre solicitada</label>
+                        <input type="text" id="tipoSangre" class="form-control" @bind="programaActual.TipoSangreSolicitada" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" @onclick="CerrarModal">Cancelar</button>
+                    <button class="btn btn-primary" @onclick="GuardarPrograma">Guardar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    <div class="modal-backdrop show"></div>
+}
+
+@code {
+    private List<ClassDonarVida.Models.ProgramaDonacion>? programas;
+    private List<ClassDonarVida.Models.CentroDonacion>? centros;
+    private Dictionary<int, string> centroDonacionNombre = new();
+    private ClassDonarVida.Models.ProgramaDonacion programaActual = new ClassDonarVida.Models.ProgramaDonacion();
+    private string modalTitle = string.Empty;
+    private bool isModalVisible = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarProgramas();
+        await CargarCentrosDonacion();
+        centros = await CentroDonacionService.GetAllAsync();
+    }
+
+    private async Task CargarCentrosDonacion()
+    {
+        try
+        {
+            var centros = await CentroDonacionService.GetAllAsync();
+            centroDonacionNombre = centros.ToDictionary(c => c.Id, c => c.Nombre); 
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching centros: {ex.Message}");
+            centroDonacionNombre = new Dictionary<int, string>();
+        }
+    }
+
+    private async Task CargarProgramas()
+    {
+        try
+        {
+            // Llamada al servicio para obtener la lista de donantes.
+            var programasList = await ProgramaDonacionService.GetAllAsync();
+            if (programasList != null)
+            {
+                programas = programasList;  // Si el modelo ya coincide, no es necesario mapear.
+            }
+            else
+            {
+                programas = new List<ClassDonarVida.Models.ProgramaDonacion>();
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error al cargar los programas: {ex.Message}");
+            await Swal.FireAsync("Error", "No se pudieron cargar los programas. Por favor, intenta más tarde.", SweetAlertIcon.Error);
+        }
+    }
+
+    private void NuevoPrograma()
+    {
+        programaActual = new ClassDonarVida.Models.ProgramaDonacion();
+        modalTitle = "Nueva Campaña de Donación";
+        isModalVisible = true;
+    }
+
+    private async Task EditarPrograma(int id)
+    {
+        programaActual = await ProgramaDonacionService.GetByIdAsync(id);
+        modalTitle = "Editar Campaña de Donación";
+        isModalVisible = true;
+    }
+
+    private async Task GuardarPrograma()
+    {
+        if (programaActual.Id == 0)
+        {
+            // Crear nuevo donante
+            await ProgramaDonacionService.CreateAsync(programaActual);
+        }
+        else
+        {
+            // Actualizar donante existente
+            await ProgramaDonacionService.UpdateAsync(programaActual);
+        }
+
+        await CargarProgramas();
+        CerrarModal();
+    }
+
+    private void CerrarModal()
+    {
+        isModalVisible = false;
+    }
+
+    private async Task Eliminar(int id)
+    {
+        try
+        {
+            // Confirmación antes de eliminar la donacion.
+            var confirmacion = await Swal.FireAsync(new SweetAlertOptions
+                {
+                    Title = "Eliminar Campaña",
+                    Text = "¿Estás seguro de que deseas eliminar esta Campaña de donación?",
+                    Icon = SweetAlertIcon.Warning,
+                    ShowCancelButton = true
+                });
+
+            if (confirmacion.IsConfirmed)
+            {
+                // Llamada al servicio para eliminar la donacion.
+                var resultado = await ProgramaDonacionService.DeleteAsync(id);
+                if (resultado)
+                {
+                    // Actualizar la lista local después de la eliminación.
+                    await Swal.FireAsync("Éxito", "Campaña eliminada correctamente.", SweetAlertIcon.Success);
+                }
+                else
+                {
+                    await Swal.FireAsync("Error", "No se pudo eliminar la Campaña.", SweetAlertIcon.Error);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error al eliminar la Campaña: {ex.Message}");
+            await Swal.FireAsync("Error", "Ocurrió un problema al intentar eliminar la campaña. Por favor, intenta más tarde.", SweetAlertIcon.Error);
+        }
+    }
+
+}
