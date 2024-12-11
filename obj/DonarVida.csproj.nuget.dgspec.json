@@ -4,14 +4,14 @@
     "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\DonarVida.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\DonarVida.csproj": {
-      "version": "1.0.0",
+    "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\ClassDonarVida\\ClassDonarVida\\ClassDonarVida.csproj": {
+      "version": "2.1.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\DonarVida.csproj",
-        "projectName": "DonarVida",
-        "projectPath": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\DonarVida.csproj",
+        "projectUniqueName": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\ClassDonarVida\\ClassDonarVida\\ClassDonarVida.csproj",
+        "projectName": "DonarVidaNuget",
+        "projectPath": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\ClassDonarVida\\ClassDonarVida\\ClassDonarVida.csproj",
         "packagesPath": "C:\\Users\\Natanael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\",
+        "outputPath": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\ClassDonarVida\\ClassDonarVida\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,76 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\DonarVida.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\DonarVida.csproj",
+        "projectName": "DonarVida",
+        "projectPath": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\DonarVida.csproj",
+        "packagesPath": "C:\\Users\\Natanael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Natanael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\ClassDonarVida\\ClassDonarVida\\ClassDonarVida.csproj": {
+                "projectPath": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\ClassDonarVida\\ClassDonarVida\\ClassDonarVida.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Blazor.Bootstrap": {
               "target": "Package",
@@ -58,10 +128,6 @@
             "CurrieTechnologies.Razor.SweetAlert2": {
               "target": "Package",
               "version": "[5.6.0, )"
-            },
-            "DonarVidaNuget": {
-              "target": "Package",
-              "version": "[2.0.0, )"
             },
             "FirebaseAdmin": {
               "target": "Package",
