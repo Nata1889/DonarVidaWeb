@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CVNWVNKHn/Rs7vEjkwiukHVHv8xcoRUZAmrpnqK1LEM=",
+  "Hash": "lk137GjYTAF7oiERx9FtOz68d5SpoQDcfV3xyZR+yp8=",
   "Source": "DonarVida",
   "BasePath": "/",
   "Mode": "Root",
@@ -934,8 +934,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "8u42za3j8c",
-      "Integrity": "AOCgcKsQliJrYm3GTriC8kDIKqw3ctTDWfmhF8CCzgY=",
+      "Fingerprint": "y43qbt14iq",
+      "Integrity": "nt48fyIyKeio/UJKe6v1DHZfEsW+Td5duEna8pmjo7I=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -1039,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "u0xhsrhhal",
-      "Integrity": "kgZmZhVkBeraZ1bbGuYT3Xa029rvdgXAVhB3ARmjKyQ=",
+      "Fingerprint": "m9z2j4e5hq",
+      "Integrity": "9j2ZDepedPuGVMeT/6RqqrG5WnwQoiLMgs3nKgf40xg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\DonarVida.pdb"
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "9vu5e2ijvq",
-      "Integrity": "hSFlpxWRNJszL9xODXcyN/RHjt2g7Xsxj2bBaYRMPSU=",
+      "Fingerprint": "dgcslwatxi",
+      "Integrity": "DcNvJMHOJGEXvkomRC3ktGoY1sUQLRYesxAe7I9ZrAU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\webcil\\DonarVida.wasm"
@@ -8312,7 +8312,7 @@
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.wasm"
     },
     {
-      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\o87u5i56ux-9vu5e2ijvq.gz",
+      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\o87u5i56ux-dgcslwatxi.gz",
       "SourceId": "DonarVida",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\",
@@ -8326,8 +8326,8 @@
       "RelatedAsset": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DonarVida.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wjpf73st3z",
-      "Integrity": "HIKAJ2bnlzg6V0E4e5x8h/qTj2aV3dl6ompCOzFnmUg=",
+      "Fingerprint": "qbqg6iuee7",
+      "Integrity": "RpeqcSfpWug4X2RJRkfPUpkaoGaWhNyqjlvPuR7BvwU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DonarVida.wasm"
@@ -8732,7 +8732,7 @@
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Core.wasm"
     },
     {
-      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\q8znbd0x68-8u42za3j8c.gz",
+      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\q8znbd0x68-y43qbt14iq.gz",
       "SourceId": "DonarVida",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\",
@@ -8746,8 +8746,8 @@
       "RelatedAsset": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0bn7jxmzbe",
-      "Integrity": "RFfDlcRjibzrHgWTCTXoEv90hsaTHAYm3nSGj4whWoM=",
+      "Fingerprint": "lzbajjaiju",
+      "Integrity": "MZrqGpZzoY1WuapQDIDUflZGzmGeKBtBgWtUPvg3ZII=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -9908,7 +9908,7 @@
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
-      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\ye24shx3g5-u0xhsrhhal.gz",
+      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\ye24shx3g5-m9z2j4e5hq.gz",
       "SourceId": "DonarVida",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\",
@@ -9922,8 +9922,8 @@
       "RelatedAsset": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DonarVida.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "yqh1hkc0wh",
-      "Integrity": "GlEir7Orvo50hzy4C1DtNO0mRxYdqWy9IYSqMr8A7x0=",
+      "Fingerprint": "jof474jzln",
+      "Integrity": "Yw/DSej8zlZP6aF0vKBxivEqo9Sk3yPG7cmzsob+9/I=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DonarVida.pdb"
@@ -12141,7 +12141,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21005"
+          "Value": "20921"
         },
         {
           "Name": "Content-Type",
@@ -12149,11 +12149,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AOCgcKsQliJrYm3GTriC8kDIKqw3ctTDWfmhF8CCzgY=\""
+          "Value": "\"nt48fyIyKeio/UJKe6v1DHZfEsW+Td5duEna8pmjo7I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 23:14:21 GMT"
+          "Value": "Wed, 11 Dec 2024 02:24:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12163,18 +12163,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AOCgcKsQliJrYm3GTriC8kDIKqw3ctTDWfmhF8CCzgY="
+          "Value": "sha256-nt48fyIyKeio/UJKe6v1DHZfEsW+Td5duEna8pmjo7I="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\q8znbd0x68-8u42za3j8c.gz",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\q8znbd0x68-y43qbt14iq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000105185653"
+          "Quality": "0.000105163529"
         }
       ],
       "ResponseHeaders": [
@@ -12184,15 +12184,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9506"
+          "Value": "9508"
         },
         {
           "Name": "ETag",
-          "Value": "\"RFfDlcRjibzrHgWTCTXoEv90hsaTHAYm3nSGj4whWoM=\""
+          "Value": "\"MZrqGpZzoY1WuapQDIDUflZGzmGeKBtBgWtUPvg3ZII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:18:42 GMT"
+          "Value": "Wed, 11 Dec 2024 02:19:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12212,19 +12212,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"AOCgcKsQliJrYm3GTriC8kDIKqw3ctTDWfmhF8CCzgY=\""
+          "Value": "W/\"nt48fyIyKeio/UJKe6v1DHZfEsW+Td5duEna8pmjo7I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AOCgcKsQliJrYm3GTriC8kDIKqw3ctTDWfmhF8CCzgY="
+          "Value": "sha256-nt48fyIyKeio/UJKe6v1DHZfEsW+Td5duEna8pmjo7I="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\q8znbd0x68-8u42za3j8c.gz",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\q8znbd0x68-y43qbt14iq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12233,7 +12233,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9506"
+          "Value": "9508"
         },
         {
           "Name": "Content-Type",
@@ -12241,11 +12241,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RFfDlcRjibzrHgWTCTXoEv90hsaTHAYm3nSGj4whWoM=\""
+          "Value": "\"MZrqGpZzoY1WuapQDIDUflZGzmGeKBtBgWtUPvg3ZII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:18:42 GMT"
+          "Value": "Wed, 11 Dec 2024 02:19:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12263,7 +12263,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RFfDlcRjibzrHgWTCTXoEv90hsaTHAYm3nSGj4whWoM="
+          "Value": "sha256-MZrqGpZzoY1WuapQDIDUflZGzmGeKBtBgWtUPvg3ZII="
         }
       ]
     },
@@ -12552,7 +12552,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26901"
+          "Value": "24853"
         },
         {
           "Name": "Content-Type",
@@ -12603,7 +12603,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:18:41 GMT"
+          "Value": "Tue, 10 Dec 2024 23:14:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12656,7 +12656,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:18:41 GMT"
+          "Value": "Tue, 10 Dec 2024 23:14:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12826,7 +12826,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "54032"
+          "Value": "54328"
         },
         {
           "Name": "Content-Type",
@@ -12834,11 +12834,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kgZmZhVkBeraZ1bbGuYT3Xa029rvdgXAVhB3ARmjKyQ=\""
+          "Value": "\"9j2ZDepedPuGVMeT/6RqqrG5WnwQoiLMgs3nKgf40xg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 23:14:20 GMT"
+          "Value": "Wed, 11 Dec 2024 02:24:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12848,18 +12848,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kgZmZhVkBeraZ1bbGuYT3Xa029rvdgXAVhB3ARmjKyQ="
+          "Value": "sha256-9j2ZDepedPuGVMeT/6RqqrG5WnwQoiLMgs3nKgf40xg="
         }
       ]
     },
     {
       "Route": "_framework/DonarVida.pdb",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\ye24shx3g5-u0xhsrhhal.gz",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\ye24shx3g5-m9z2j4e5hq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000024293662"
+          "Quality": "0.000024293072"
         }
       ],
       "ResponseHeaders": [
@@ -12869,15 +12869,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41162"
+          "Value": "41163"
         },
         {
           "Name": "ETag",
-          "Value": "\"GlEir7Orvo50hzy4C1DtNO0mRxYdqWy9IYSqMr8A7x0=\""
+          "Value": "\"Yw/DSej8zlZP6aF0vKBxivEqo9Sk3yPG7cmzsob+9/I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:08:26 GMT"
+          "Value": "Wed, 11 Dec 2024 02:19:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12897,19 +12897,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"kgZmZhVkBeraZ1bbGuYT3Xa029rvdgXAVhB3ARmjKyQ=\""
+          "Value": "W/\"9j2ZDepedPuGVMeT/6RqqrG5WnwQoiLMgs3nKgf40xg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kgZmZhVkBeraZ1bbGuYT3Xa029rvdgXAVhB3ARmjKyQ="
+          "Value": "sha256-9j2ZDepedPuGVMeT/6RqqrG5WnwQoiLMgs3nKgf40xg="
         }
       ]
     },
     {
       "Route": "_framework/DonarVida.pdb.gz",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\ye24shx3g5-u0xhsrhhal.gz",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\ye24shx3g5-m9z2j4e5hq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12918,7 +12918,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41162"
+          "Value": "41163"
         },
         {
           "Name": "Content-Type",
@@ -12926,11 +12926,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GlEir7Orvo50hzy4C1DtNO0mRxYdqWy9IYSqMr8A7x0=\""
+          "Value": "\"Yw/DSej8zlZP6aF0vKBxivEqo9Sk3yPG7cmzsob+9/I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:08:26 GMT"
+          "Value": "Wed, 11 Dec 2024 02:19:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12948,7 +12948,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GlEir7Orvo50hzy4C1DtNO0mRxYdqWy9IYSqMr8A7x0="
+          "Value": "sha256-Yw/DSej8zlZP6aF0vKBxivEqo9Sk3yPG7cmzsob+9/I="
         }
       ]
     },
@@ -12963,7 +12963,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89365"
+          "Value": "89877"
         },
         {
           "Name": "Content-Type",
@@ -12971,11 +12971,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hSFlpxWRNJszL9xODXcyN/RHjt2g7Xsxj2bBaYRMPSU=\""
+          "Value": "\"DcNvJMHOJGEXvkomRC3ktGoY1sUQLRYesxAe7I9ZrAU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 23:14:20 GMT"
+          "Value": "Wed, 11 Dec 2024 02:24:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12985,18 +12985,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hSFlpxWRNJszL9xODXcyN/RHjt2g7Xsxj2bBaYRMPSU="
+          "Value": "sha256-DcNvJMHOJGEXvkomRC3ktGoY1sUQLRYesxAe7I9ZrAU="
         }
       ]
     },
     {
       "Route": "_framework/DonarVida.wasm",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\o87u5i56ux-9vu5e2ijvq.gz",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\o87u5i56ux-dgcslwatxi.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000034366623"
+          "Quality": "0.000034354817"
         }
       ],
       "ResponseHeaders": [
@@ -13006,15 +13006,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29097"
+          "Value": "29107"
         },
         {
           "Name": "ETag",
-          "Value": "\"HIKAJ2bnlzg6V0E4e5x8h/qTj2aV3dl6ompCOzFnmUg=\""
+          "Value": "\"RpeqcSfpWug4X2RJRkfPUpkaoGaWhNyqjlvPuR7BvwU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:05:27 GMT"
+          "Value": "Wed, 11 Dec 2024 02:19:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13034,19 +13034,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hSFlpxWRNJszL9xODXcyN/RHjt2g7Xsxj2bBaYRMPSU=\""
+          "Value": "W/\"DcNvJMHOJGEXvkomRC3ktGoY1sUQLRYesxAe7I9ZrAU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hSFlpxWRNJszL9xODXcyN/RHjt2g7Xsxj2bBaYRMPSU="
+          "Value": "sha256-DcNvJMHOJGEXvkomRC3ktGoY1sUQLRYesxAe7I9ZrAU="
         }
       ]
     },
     {
       "Route": "_framework/DonarVida.wasm.gz",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\o87u5i56ux-9vu5e2ijvq.gz",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\o87u5i56ux-dgcslwatxi.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13055,7 +13055,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29097"
+          "Value": "29107"
         },
         {
           "Name": "Content-Type",
@@ -13063,11 +13063,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HIKAJ2bnlzg6V0E4e5x8h/qTj2aV3dl6ompCOzFnmUg=\""
+          "Value": "\"RpeqcSfpWug4X2RJRkfPUpkaoGaWhNyqjlvPuR7BvwU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:05:27 GMT"
+          "Value": "Wed, 11 Dec 2024 02:19:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13085,7 +13085,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HIKAJ2bnlzg6V0E4e5x8h/qTj2aV3dl6ompCOzFnmUg="
+          "Value": "sha256-RpeqcSfpWug4X2RJRkfPUpkaoGaWhNyqjlvPuR7BvwU="
         }
       ]
     },

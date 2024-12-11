@@ -40,7 +40,7 @@
           "buildMultiTargeting/CurrieTechnologies.Razor.SweetAlert2.props": {}
         }
       },
-      "DonarVidaNuget/1.0.0": {
+      "DonarVidaNuget/2.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/ClassDonarVida.dll": {}
@@ -739,7 +739,7 @@
           "buildMultiTargeting/CurrieTechnologies.Razor.SweetAlert2.props": {}
         }
       },
-      "DonarVidaNuget/1.0.0": {
+      "DonarVidaNuget/2.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/ClassDonarVida.dll": {}
@@ -1478,14 +1478,14 @@
         "staticwebassets/wordpressAdminTheme.min.js"
       ]
     },
-    "DonarVidaNuget/1.0.0": {
-      "sha512": "RXGOsdYoyGSEHuuFtHbJuw9XRY8hgPwQD4aXK/pXy19gJmxjfgooXAwn9f1u6xohEpR/FN92qH2yqa9MKO1vlw==",
+    "DonarVidaNuget/2.0.0": {
+      "sha512": "t+D52U45PPuB2Ief5b5jc3rle+cqwnYblW3N42bdhUOkmbOkYRLZEr26swEgBOrfbgfzG+5hHmavuAl/4GBm8g==",
       "type": "package",
-      "path": "donarvidanuget/1.0.0",
+      "path": "donarvidanuget/2.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "donarvidanuget.1.0.0.nupkg.sha512",
+        "donarvidanuget.2.0.0.nupkg.sha512",
         "donarvidanuget.nuspec",
         "lib/net8.0/ClassDonarVida.dll"
       ]
@@ -2701,7 +2701,7 @@
     "net8.0": [
       "Blazor.Bootstrap >= 3.1.0",
       "CurrieTechnologies.Razor.SweetAlert2 >= 5.6.0",
-      "DonarVidaNuget >= 1.0.0",
+      "DonarVidaNuget >= 2.0.0",
       "FirebaseAdmin >= 3.1.0",
       "FirebaseAuthentication.net >= 4.1.0",
       "Google.Apis.Auth >= 1.68.0",
@@ -2772,7 +2772,7 @@
           },
           "DonarVidaNuget": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[2.0.0, )"
           },
           "FirebaseAdmin": {
             "target": "Package",

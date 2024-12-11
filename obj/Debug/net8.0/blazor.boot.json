@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "DonarVida",
   "resources": {
-    "hash": "sha256-PwPuzZXfKaGyAKLQ0MJQV2OexoPfyxK9dnzBSW2JM88=",
+    "hash": "sha256-EnTktCi8T+fdo9WJmVj1aS6XEkyMnltHLZsLAHkDjpU=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -223,10 +223,10 @@
       "mscorlib.wasm": "sha256-04e4k5XU8HWGB/dq/2+j84xzzGPflTs0IYWI0OxogVc=",
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
-      "DonarVida.wasm": "sha256-hSFlpxWRNJszL9xODXcyN/RHjt2g7Xsxj2bBaYRMPSU="
+      "DonarVida.wasm": "sha256-DcNvJMHOJGEXvkomRC3ktGoY1sUQLRYesxAe7I9ZrAU="
     },
     "pdb": {
-      "DonarVida.pdb": "sha256-kgZmZhVkBeraZ1bbGuYT3Xa029rvdgXAVhB3ARmjKyQ="
+      "DonarVida.pdb": "sha256-9j2ZDepedPuGVMeT/6RqqrG5WnwQoiLMgs3nKgf40xg="
     }
   },
   "cacheBootResources": true,

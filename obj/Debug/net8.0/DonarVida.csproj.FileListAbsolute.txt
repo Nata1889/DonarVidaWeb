@@ -1105,6 +1105,6 @@ C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\g0br6au0ly-eou0u5699p.gz
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\DonarVida.sourcelink.json
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\nn05dm6nbo-jdaerbr725.gz
-C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\o87u5i56ux-9vu5e2ijvq.gz
-C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\ye24shx3g5-u0xhsrhhal.gz
-C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\q8znbd0x68-8u42za3j8c.gz
+C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\o87u5i56ux-dgcslwatxi.gz
+C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\ye24shx3g5-m9z2j4e5hq.gz
+C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\q8znbd0x68-y43qbt14iq.gz
