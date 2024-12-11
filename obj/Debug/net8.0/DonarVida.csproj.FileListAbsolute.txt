@@ -825,12 +825,9 @@ C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\bin\Debug\net8.0\wwwroot\_framework\BlazorBootstrap.wasm.gz
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\bin\Debug\net8.0\BlazorBootstrap.dll
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\webcil\BlazorBootstrap.wasm
-C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\bin\Debug\net8.0\wwwroot\_framework\ClassDonarVida.pdb
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\bin\Debug\net8.0\wwwroot\_framework\ClassDonarVida.wasm
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\bin\Debug\net8.0\wwwroot\_framework\ClassDonarVida.wasm.gz
-C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\bin\Debug\net8.0\wwwroot\_framework\ClassDonarVida.pdb.gz
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\bin\Debug\net8.0\ClassDonarVida.dll
-C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\bin\Debug\net8.0\ClassDonarVida.pdb
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\webcil\ClassDonarVida.wasm
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.js
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.js
@@ -1106,8 +1103,8 @@ C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\a8cl6lgtxu-qkbufwhni2.gz
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\wg0j8ze75d-xvn299iq47.gz
 C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\g0br6au0ly-eou0u5699p.gz
-C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\o87u5i56ux-xxgkr57ryv.gz
-C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\ye24shx3g5-wslz5r2sw8.gz
-C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\nn05dm6nbo-ztc43ox83y.gz
-C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\t6jga8q42u-ookzqst6qq.gz
-C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\q8znbd0x68-hogd5sihn5.gz
+C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\DonarVida.sourcelink.json
+C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\nn05dm6nbo-jdaerbr725.gz
+C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\o87u5i56ux-9vu5e2ijvq.gz
+C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\ye24shx3g5-u0xhsrhhal.gz
+C:\Users\Natanael\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\DonarVida\obj\Debug\net8.0\compressed\q8znbd0x68-8u42za3j8c.gz

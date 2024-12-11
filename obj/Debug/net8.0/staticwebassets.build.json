@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9czn8d5zJDcoB415U5qzihref6lHW/xnuJltXxXYNBw=",
+  "Hash": "CVNWVNKHn/Rs7vEjkwiukHVHv8xcoRUZAmrpnqK1LEM=",
   "Source": "DonarVida",
   "BasePath": "/",
   "Mode": "Root",
@@ -934,8 +934,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "hogd5sihn5",
-      "Integrity": "sQrAoh1Wg90OvV76tBXkghpPBGnRh+wdb0x+Dqix2u0=",
+      "Fingerprint": "8u42za3j8c",
+      "Integrity": "AOCgcKsQliJrYm3GTriC8kDIKqw3ctTDWfmhF8CCzgY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -983,27 +983,6 @@
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\webcil\\BlazorBootstrap.wasm"
     },
     {
-      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\ClassDonarVida.pdb",
-      "SourceId": "DonarVida",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/ClassDonarVida.pdb",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "WasmResource",
-      "AssetTraitValue": "symbol",
-      "Fingerprint": "ookzqst6qq",
-      "Integrity": "iBIGSyv1QEGfu/CyD5dhwuvsToo8wA71kAtYOQErFVg=",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\ClassDonarVida\\ClassDonarVida\\bin\\Debug\\net8.0\\ClassDonarVida.pdb"
-    },
-    {
       "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\ClassDonarVida.wasm",
       "SourceId": "DonarVida",
       "SourceType": "Computed",
@@ -1018,8 +997,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "ztc43ox83y",
-      "Integrity": "92yd3RPP7T8ACusxdlijtFMT7BezRGoZyMXYBTZaMf0=",
+      "Fingerprint": "jdaerbr725",
+      "Integrity": "B6MzHijx+Qkb5KgZlE9Rk0SyXCClMBBjZUhDmgYN7Pg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\webcil\\ClassDonarVida.wasm"
@@ -1060,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "wslz5r2sw8",
-      "Integrity": "IOqFePcF53FOUlymLvq1zRyeooJGnSKYWCzQsNGCg7c=",
+      "Fingerprint": "u0xhsrhhal",
+      "Integrity": "kgZmZhVkBeraZ1bbGuYT3Xa029rvdgXAVhB3ARmjKyQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\DonarVida.pdb"
@@ -1081,8 +1060,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "xxgkr57ryv",
-      "Integrity": "Ow4goj+IekKUp0KFxpO0+ELobKVa9jf7TrZqcE8cKdQ=",
+      "Fingerprint": "9vu5e2ijvq",
+      "Integrity": "hSFlpxWRNJszL9xODXcyN/RHjt2g7Xsxj2bBaYRMPSU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\webcil\\DonarVida.wasm"
@@ -8228,7 +8207,7 @@
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.Xml.Linq.wasm"
     },
     {
-      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\nn05dm6nbo-ztc43ox83y.gz",
+      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\nn05dm6nbo-jdaerbr725.gz",
       "SourceId": "DonarVida",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\",
@@ -8242,8 +8221,8 @@
       "RelatedAsset": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\ClassDonarVida.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qpz2l6t4yw",
-      "Integrity": "Tv7LLJD7nxVCYTNYqHKffmwiNoywvlM/4co5BZupnXg=",
+      "Fingerprint": "aq5ya8smti",
+      "Integrity": "gvsRaNpeBUB4G2omgCC+pPFUYIovrFxbTKAtpv0nmr0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\ClassDonarVida.wasm"
@@ -8333,7 +8312,7 @@
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.wasm"
     },
     {
-      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\o87u5i56ux-xxgkr57ryv.gz",
+      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\o87u5i56ux-9vu5e2ijvq.gz",
       "SourceId": "DonarVida",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\",
@@ -8347,8 +8326,8 @@
       "RelatedAsset": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DonarVida.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "n9qurypcsa",
-      "Integrity": "ezPrbIQKatsXXp2DrlMYLdgqa0m5MABeNoYPyyeFFqY=",
+      "Fingerprint": "wjpf73st3z",
+      "Integrity": "HIKAJ2bnlzg6V0E4e5x8h/qTj2aV3dl6ompCOzFnmUg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DonarVida.wasm"
@@ -8753,7 +8732,7 @@
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Core.wasm"
     },
     {
-      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\q8znbd0x68-hogd5sihn5.gz",
+      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\q8znbd0x68-8u42za3j8c.gz",
       "SourceId": "DonarVida",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\",
@@ -8767,8 +8746,8 @@
       "RelatedAsset": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vj19eig4yt",
-      "Integrity": "G8Zs81l2w7UtjDMRSruJsfC8Nwbty8Viz8Nnkm/JcUc=",
+      "Fingerprint": "0bn7jxmzbe",
+      "Integrity": "RFfDlcRjibzrHgWTCTXoEv90hsaTHAYm3nSGj4whWoM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -9150,27 +9129,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ServiceProcess.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\t6jga8q42u-ookzqst6qq.gz",
-      "SourceId": "DonarVida",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/ClassDonarVida.pdb.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\ClassDonarVida.pdb",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "w0zambly3l",
-      "Integrity": "MH5XhliCCoyL+EyHNSoH8EB0GWZhj904NJunfdXZqN8=",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\ClassDonarVida.pdb"
     },
     {
       "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\t7jhlmqnxw-jqkxj3q7bd.gz",
@@ -9950,7 +9908,7 @@
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
-      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\ye24shx3g5-wslz5r2sw8.gz",
+      "Identity": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\ye24shx3g5-u0xhsrhhal.gz",
       "SourceId": "DonarVida",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\",
@@ -9964,8 +9922,8 @@
       "RelatedAsset": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DonarVida.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "e4zhlm2qz6",
-      "Integrity": "Drl8izS8eO4004mmXsy/+Wnm2xoJuGkhjkK/yLtQCew=",
+      "Fingerprint": "yqh1hkc0wh",
+      "Integrity": "GlEir7Orvo50hzy4C1DtNO0mRxYdqWy9IYSqMr8A7x0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DonarVida.pdb"
@@ -12191,7 +12149,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sQrAoh1Wg90OvV76tBXkghpPBGnRh+wdb0x+Dqix2u0=\""
+          "Value": "\"AOCgcKsQliJrYm3GTriC8kDIKqw3ctTDWfmhF8CCzgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 23:14:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AOCgcKsQliJrYm3GTriC8kDIKqw3ctTDWfmhF8CCzgY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\q8znbd0x68-8u42za3j8c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000105185653"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9506"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RFfDlcRjibzrHgWTCTXoEv90hsaTHAYm3nSGj4whWoM=\""
         },
         {
           "Name": "Last-Modified",
@@ -12200,45 +12197,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-sQrAoh1Wg90OvV76tBXkghpPBGnRh+wdb0x+Dqix2u0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\q8znbd0x68-hogd5sihn5.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000104755919"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9545"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"G8Zs81l2w7UtjDMRSruJsfC8Nwbty8Viz8Nnkm/JcUc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:17:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -12254,19 +12212,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sQrAoh1Wg90OvV76tBXkghpPBGnRh+wdb0x+Dqix2u0=\""
+          "Value": "W/\"AOCgcKsQliJrYm3GTriC8kDIKqw3ctTDWfmhF8CCzgY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sQrAoh1Wg90OvV76tBXkghpPBGnRh+wdb0x+Dqix2u0="
+          "Value": "sha256-AOCgcKsQliJrYm3GTriC8kDIKqw3ctTDWfmhF8CCzgY="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\q8znbd0x68-hogd5sihn5.gz",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\q8znbd0x68-8u42za3j8c.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12275,7 +12233,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9545"
+          "Value": "9506"
         },
         {
           "Name": "Content-Type",
@@ -12283,11 +12241,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"G8Zs81l2w7UtjDMRSruJsfC8Nwbty8Viz8Nnkm/JcUc=\""
+          "Value": "\"RFfDlcRjibzrHgWTCTXoEv90hsaTHAYm3nSGj4whWoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:17:31 GMT"
+          "Value": "Tue, 10 Dec 2024 21:18:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12305,7 +12263,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-G8Zs81l2w7UtjDMRSruJsfC8Nwbty8Viz8Nnkm/JcUc="
+          "Value": "sha256-RFfDlcRjibzrHgWTCTXoEv90hsaTHAYm3nSGj4whWoM="
         }
       ]
     },
@@ -12584,143 +12542,6 @@
       ]
     },
     {
-      "Route": "_framework/ClassDonarVida.pdb",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\ClassDonarVida.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16068"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iBIGSyv1QEGfu/CyD5dhwuvsToo8wA71kAtYOQErFVg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:18:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iBIGSyv1QEGfu/CyD5dhwuvsToo8wA71kAtYOQErFVg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/ClassDonarVida.pdb",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\t6jga8q42u-ookzqst6qq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000118427286"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8443"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MH5XhliCCoyL+EyHNSoH8EB0GWZhj904NJunfdXZqN8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:17:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"iBIGSyv1QEGfu/CyD5dhwuvsToo8wA71kAtYOQErFVg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iBIGSyv1QEGfu/CyD5dhwuvsToo8wA71kAtYOQErFVg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/ClassDonarVida.pdb.gz",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\t6jga8q42u-ookzqst6qq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8443"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MH5XhliCCoyL+EyHNSoH8EB0GWZhj904NJunfdXZqN8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:17:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MH5XhliCCoyL+EyHNSoH8EB0GWZhj904NJunfdXZqN8="
-        }
-      ]
-    },
-    {
       "Route": "_framework/ClassDonarVida.wasm",
       "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\bin\\Debug\\net8.0\\wwwroot\\_framework\\ClassDonarVida.wasm",
       "Selectors": [],
@@ -12739,7 +12560,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"92yd3RPP7T8ACusxdlijtFMT7BezRGoZyMXYBTZaMf0=\""
+          "Value": "\"B6MzHijx+Qkb5KgZlE9Rk0SyXCClMBBjZUhDmgYN7Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 23:14:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B6MzHijx+Qkb5KgZlE9Rk0SyXCClMBBjZUhDmgYN7Pg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/ClassDonarVida.wasm",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\nn05dm6nbo-jdaerbr725.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000111271837"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8986"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gvsRaNpeBUB4G2omgCC+pPFUYIovrFxbTKAtpv0nmr0=\""
         },
         {
           "Name": "Last-Modified",
@@ -12748,45 +12608,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-92yd3RPP7T8ACusxdlijtFMT7BezRGoZyMXYBTZaMf0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/ClassDonarVida.wasm",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\nn05dm6nbo-ztc43ox83y.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000103252452"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9684"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Tv7LLJD7nxVCYTNYqHKffmwiNoywvlM/4co5BZupnXg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:17:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -12802,19 +12623,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"92yd3RPP7T8ACusxdlijtFMT7BezRGoZyMXYBTZaMf0=\""
+          "Value": "W/\"B6MzHijx+Qkb5KgZlE9Rk0SyXCClMBBjZUhDmgYN7Pg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-92yd3RPP7T8ACusxdlijtFMT7BezRGoZyMXYBTZaMf0="
+          "Value": "sha256-B6MzHijx+Qkb5KgZlE9Rk0SyXCClMBBjZUhDmgYN7Pg="
         }
       ]
     },
     {
       "Route": "_framework/ClassDonarVida.wasm.gz",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\nn05dm6nbo-ztc43ox83y.gz",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\nn05dm6nbo-jdaerbr725.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12823,7 +12644,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9684"
+          "Value": "8986"
         },
         {
           "Name": "Content-Type",
@@ -12831,11 +12652,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Tv7LLJD7nxVCYTNYqHKffmwiNoywvlM/4co5BZupnXg=\""
+          "Value": "\"gvsRaNpeBUB4G2omgCC+pPFUYIovrFxbTKAtpv0nmr0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:17:31 GMT"
+          "Value": "Tue, 10 Dec 2024 21:18:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12853,7 +12674,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Tv7LLJD7nxVCYTNYqHKffmwiNoywvlM/4co5BZupnXg="
+          "Value": "sha256-gvsRaNpeBUB4G2omgCC+pPFUYIovrFxbTKAtpv0nmr0="
         }
       ]
     },
@@ -13013,11 +12834,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IOqFePcF53FOUlymLvq1zRyeooJGnSKYWCzQsNGCg7c=\""
+          "Value": "\"kgZmZhVkBeraZ1bbGuYT3Xa029rvdgXAVhB3ARmjKyQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:08:26 GMT"
+          "Value": "Tue, 10 Dec 2024 23:14:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13027,18 +12848,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IOqFePcF53FOUlymLvq1zRyeooJGnSKYWCzQsNGCg7c="
+          "Value": "sha256-kgZmZhVkBeraZ1bbGuYT3Xa029rvdgXAVhB3ARmjKyQ="
         }
       ]
     },
     {
       "Route": "_framework/DonarVida.pdb",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\ye24shx3g5-wslz5r2sw8.gz",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\ye24shx3g5-u0xhsrhhal.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000024384891"
+          "Quality": "0.000024293662"
         }
       ],
       "ResponseHeaders": [
@@ -13048,11 +12869,11 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41008"
+          "Value": "41162"
         },
         {
           "Name": "ETag",
-          "Value": "\"Drl8izS8eO4004mmXsy/+Wnm2xoJuGkhjkK/yLtQCew=\""
+          "Value": "\"GlEir7Orvo50hzy4C1DtNO0mRxYdqWy9IYSqMr8A7x0=\""
         },
         {
           "Name": "Last-Modified",
@@ -13076,19 +12897,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"IOqFePcF53FOUlymLvq1zRyeooJGnSKYWCzQsNGCg7c=\""
+          "Value": "W/\"kgZmZhVkBeraZ1bbGuYT3Xa029rvdgXAVhB3ARmjKyQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IOqFePcF53FOUlymLvq1zRyeooJGnSKYWCzQsNGCg7c="
+          "Value": "sha256-kgZmZhVkBeraZ1bbGuYT3Xa029rvdgXAVhB3ARmjKyQ="
         }
       ]
     },
     {
       "Route": "_framework/DonarVida.pdb.gz",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\ye24shx3g5-wslz5r2sw8.gz",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\ye24shx3g5-u0xhsrhhal.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13097,7 +12918,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41008"
+          "Value": "41162"
         },
         {
           "Name": "Content-Type",
@@ -13105,7 +12926,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Drl8izS8eO4004mmXsy/+Wnm2xoJuGkhjkK/yLtQCew=\""
+          "Value": "\"GlEir7Orvo50hzy4C1DtNO0mRxYdqWy9IYSqMr8A7x0=\""
         },
         {
           "Name": "Last-Modified",
@@ -13127,7 +12948,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Drl8izS8eO4004mmXsy/+Wnm2xoJuGkhjkK/yLtQCew="
+          "Value": "sha256-GlEir7Orvo50hzy4C1DtNO0mRxYdqWy9IYSqMr8A7x0="
         }
       ]
     },
@@ -13150,11 +12971,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ow4goj+IekKUp0KFxpO0+ELobKVa9jf7TrZqcE8cKdQ=\""
+          "Value": "\"hSFlpxWRNJszL9xODXcyN/RHjt2g7Xsxj2bBaYRMPSU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 21:05:27 GMT"
+          "Value": "Tue, 10 Dec 2024 23:14:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13164,18 +12985,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ow4goj+IekKUp0KFxpO0+ELobKVa9jf7TrZqcE8cKdQ="
+          "Value": "sha256-hSFlpxWRNJszL9xODXcyN/RHjt2g7Xsxj2bBaYRMPSU="
         }
       ]
     },
     {
       "Route": "_framework/DonarVida.wasm",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\o87u5i56ux-xxgkr57ryv.gz",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\o87u5i56ux-9vu5e2ijvq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000034481570"
+          "Quality": "0.000034366623"
         }
       ],
       "ResponseHeaders": [
@@ -13185,11 +13006,11 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29000"
+          "Value": "29097"
         },
         {
           "Name": "ETag",
-          "Value": "\"ezPrbIQKatsXXp2DrlMYLdgqa0m5MABeNoYPyyeFFqY=\""
+          "Value": "\"HIKAJ2bnlzg6V0E4e5x8h/qTj2aV3dl6ompCOzFnmUg=\""
         },
         {
           "Name": "Last-Modified",
@@ -13213,19 +13034,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Ow4goj+IekKUp0KFxpO0+ELobKVa9jf7TrZqcE8cKdQ=\""
+          "Value": "W/\"hSFlpxWRNJszL9xODXcyN/RHjt2g7Xsxj2bBaYRMPSU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ow4goj+IekKUp0KFxpO0+ELobKVa9jf7TrZqcE8cKdQ="
+          "Value": "sha256-hSFlpxWRNJszL9xODXcyN/RHjt2g7Xsxj2bBaYRMPSU="
         }
       ]
     },
     {
       "Route": "_framework/DonarVida.wasm.gz",
-      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\o87u5i56ux-xxgkr57ryv.gz",
+      "AssetFile": "C:\\Users\\Natanael\\Trabajo final Programacion II - Base de datos II - Gestión de Proyectos\\DonarVida\\obj\\Debug\\net8.0\\compressed\\o87u5i56ux-9vu5e2ijvq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13234,7 +13055,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29000"
+          "Value": "29097"
         },
         {
           "Name": "Content-Type",
@@ -13242,7 +13063,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ezPrbIQKatsXXp2DrlMYLdgqa0m5MABeNoYPyyeFFqY=\""
+          "Value": "\"HIKAJ2bnlzg6V0E4e5x8h/qTj2aV3dl6ompCOzFnmUg=\""
         },
         {
           "Name": "Last-Modified",
@@ -13264,7 +13085,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ezPrbIQKatsXXp2DrlMYLdgqa0m5MABeNoYPyyeFFqY="
+          "Value": "sha256-HIKAJ2bnlzg6V0E4e5x8h/qTj2aV3dl6ompCOzFnmUg="
         }
       ]
     },

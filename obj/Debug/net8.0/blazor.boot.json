@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "DonarVida",
   "resources": {
-    "hash": "sha256-jLu5cewSeR+lyt0KTM/m2SswsM6pKJDCdJqdgB6CyIY=",
+    "hash": "sha256-PwPuzZXfKaGyAKLQ0MJQV2OexoPfyxK9dnzBSW2JM88=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -20,6 +20,7 @@
     "assembly": {
       "BlazorBootstrap.wasm": "sha256-lTz75VpKCvfnYXYDPZe8bSqnBgQcVzVbVaY+yohyBd8=",
       "CurrieTechnologies.Razor.SweetAlert2.wasm": "sha256-n6ubE26hJennNg6Gc9pr3BUMAuIS7CU4C94k2cw++m8=",
+      "ClassDonarVida.wasm": "sha256-B6MzHijx+Qkb5KgZlE9Rk0SyXCClMBBjZUhDmgYN7Pg=",
       "FirebaseAdmin.wasm": "sha256-RUjxJWkilxx5USNcp7nxb2/pzyJIzJiXn5Bm1NF7aPc=",
       "Firebase.Auth.wasm": "sha256-cVPmlpx5ocKwnrcRzPoD8CrBlsDqDB0Q85Sl2KpQpxk=",
       "Google.Api.Gax.wasm": "sha256-dT6lTdXpeSN8UJ0KsLh5QP4H7rBa0NRwSza3K01NZcE=",
@@ -222,12 +223,10 @@
       "mscorlib.wasm": "sha256-04e4k5XU8HWGB/dq/2+j84xzzGPflTs0IYWI0OxogVc=",
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
-      "ClassDonarVida.wasm": "sha256-92yd3RPP7T8ACusxdlijtFMT7BezRGoZyMXYBTZaMf0=",
-      "DonarVida.wasm": "sha256-Ow4goj+IekKUp0KFxpO0+ELobKVa9jf7TrZqcE8cKdQ="
+      "DonarVida.wasm": "sha256-hSFlpxWRNJszL9xODXcyN/RHjt2g7Xsxj2bBaYRMPSU="
     },
     "pdb": {
-      "ClassDonarVida.pdb": "sha256-iBIGSyv1QEGfu/CyD5dhwuvsToo8wA71kAtYOQErFVg=",
-      "DonarVida.pdb": "sha256-IOqFePcF53FOUlymLvq1zRyeooJGnSKYWCzQsNGCg7c="
+      "DonarVida.pdb": "sha256-kgZmZhVkBeraZ1bbGuYT3Xa029rvdgXAVhB3ARmjKyQ="
     }
   },
   "cacheBootResources": true,
