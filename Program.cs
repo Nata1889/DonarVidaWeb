@@ -12,9 +12,8 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5198") });
 //builder.Services.AddSingleton(new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-//var configuration = builder.Configuration;
-//builder.Services.AddSingleton(new HttpClient { BaseAddress = new Uri(configuration["ApiUrl"]) });
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://donarvida.azurewebsites.net/") });
+var configuration = builder.Configuration;
+builder.Services.AddSingleton(new HttpClient { BaseAddress = new Uri(configuration["ApiUrl"]) });
 
 
 
